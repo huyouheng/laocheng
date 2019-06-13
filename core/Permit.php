@@ -1,9 +1,11 @@
 <?php
 
+namespace Hyh\Core;
+
 class Permit
 {
-	public function __construct()
+	public function init()
 	{
-		echo "Permit".PHP_EOL;
+		echo "Permit <br>";
 	}
 }

@@ -1,9 +1,11 @@
 <?php
 
+namespace Hyh\Core;
+
 class Response
 {
-	public funtion __construct()
+	public function init()
 	{
-		echo "Response".PHP_EOL;
+		echo "Response <br>";
 	}
 }

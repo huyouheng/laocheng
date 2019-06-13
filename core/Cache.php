@@ -1,9 +1,11 @@
 <?php
 
+namespace Hyh\Core;
+
 class Cache
 {
-	public function __construct()
+	public function init()
 	{
-		echo "Cache".PHP_EOL;
+		echo "Cache <br>";
 	}
 }

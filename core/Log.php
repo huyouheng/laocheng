@@ -1,9 +1,11 @@
 <?php
 
+namespace Hyh\Core;
+
 class Log
 {
-	public function __construct()
+	public function init()
 	{
-		echo "Log".PHP_EOL;
+		echo "Log <br>";
 	}
 }
